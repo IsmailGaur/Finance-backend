@@ -281,7 +281,7 @@ tr:hover td{background:rgba(255,255,255,0.02)}
 <div class="toast-container" id="toasts"></div>
 
 <script>
-const API="http://localhost:8000";
+const API="https://finance-backend-6-biuu.onrender.com";
 let token=null,currentUser=null,curPage=1,totalPages=1,dbTimer=null;
 const fmt=n=>"Rs."+Number(n).toLocaleString("en-IN",{minimumFractionDigits:0,maximumFractionDigits:0});
 const fmtDate=d=>d?new Date(d).toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric"}):"—";
